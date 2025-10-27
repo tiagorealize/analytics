@@ -1,0 +1,12 @@
+# Netlify redirects for Next.js App Router
+# This ensures all routes work correctly
+
+# Handle dynamic routes
+/courses/* /courses/index.html 200
+/students/* /students/index.html 200
+/courses/*/modules/* /courses/index.html 200
+/courses/*/modules/*/units/* /courses/index.html 200
+
+# Handle all other routes
+/* /index.html 200
+

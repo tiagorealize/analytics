@@ -1,0 +1,22 @@
+{
+  "name": "Realize Analytics",
+  "short_name": "Realize",
+  "description": "Dashboard Educacional Inteligente para gestão de cursos e acompanhamento de alunos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#CE1C5A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity", "business"],
+  "lang": "pt-BR",
+  "dir": "ltr"
+}
+
